@@ -1,0 +1,24 @@
+{
+	"format_version": [ 1, 1, 0 ],
+	"orca:elevator_guide": {
+		"textures": {
+			"up": "elevator_guide_top",
+			"down": "elevator_guide_top",
+			"side": "elevator_guide_front"
+		}
+	},
+	"orca:elevator_guide_basement": {
+		"textures": {
+			"up": "elevator_guide_top",
+			"down": "elevator_guide_top",
+			"side": "elevator_guide_basement_front"
+		}
+	},
+	"orca:elevator_guide_floor": {
+		"textures": {
+			"up": "elevator_guide_top",
+			"down": "elevator_guide_top",
+			"side": "elevator_guide_floor_front"
+		}
+	}
+}

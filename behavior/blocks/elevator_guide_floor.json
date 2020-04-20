@@ -1,0 +1,20 @@
+{
+	"format_version": "1.10.0",
+	"minecraft:block": {
+		"description": {
+			"identifier": "orca:elevator_guide_floor",
+			"register_to_creative_menu": true
+		},
+		"components": {
+			"minecraft:destroy_time": {
+				"value": 2
+			},
+			"minecraft:explosion_resistance": {
+				"value": 18
+			},
+			"minecraft:map_color": {
+				"color": "#b3b3b3"
+			}
+		}
+	}
+}

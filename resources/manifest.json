@@ -1,0 +1,18 @@
+{
+    "format_version": 2,
+    "header": {
+        "name": "Elevator",
+        "description": "An elevator addon",
+        "uuid": "98480607-2c1c-4d33-a680-9dd291f876c1",
+        "version": [0, 0, 1],
+        "min_engine_version": [ 1, 14, 0 ]
+    },
+    "modules": [
+        {
+            "description": "Elevator - resource pack",
+            "type": "resources",
+            "uuid": "524f8e4c-2915-4ea7-a783-194f9144fabe",
+            "version": [0, 0, 1]
+        }
+    ]
+}

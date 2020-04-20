@@ -1,0 +1,5 @@
+pack.name=Elevator
+pack.description=An elevator addon
+tile.orca:elevator_guide.name=Elevator guide
+tile.orca:elevator_guide_floor.name=Elevator guide (floor)
+tile.orca:elevator_guide_basement.name=Elevator guide (basement)
