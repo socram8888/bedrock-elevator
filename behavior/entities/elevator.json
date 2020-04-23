@@ -1,74 +1,33 @@
 {
-  "format_version": "1.13.0",
-  "minecraft:entity": {
-    "description": {
-      "identifier": "orca:elevator",
-      "is_spawnable": true,
-      "is_summonable": true,
-      "is_experimental": false
-    },
+	"format_version": "1.13.0",
+	"minecraft:entity": {
+		"description": {
+			"identifier": "orca:elevator",
+			"is_spawnable": true,
+			"is_summonable": true
+		},
 
-    "components": {
-      "minecraft:type_family": {
-        "family": [ "inanimate" ]
-      },
-      "minecraft:collision_box": {
-        "width": 1.4,
-        "height": 0.455
-      },
-      "minecraft:hurt_on_condition": {
-        "damage_conditions": [
-          {
-            "filters": { "test": "in_lava", "subject": "self", "operator": "==", "value": true },
-            "cause": "lava",
-            "damage_per_tick": 4
-          }
-        ]
-      },
-      "minecraft:leashable": {
-        "soft_distance": 4.0,
-        "hard_distance": 6.0,
-        "max_distance": 10.0
-      },
-      "minecraft:rideable": {
-        "seat_count": 2,
-        "interact_text": "action.interact.ride.boat",
-        "pull_in_entities": true,
-
-        "seats": [
-          {
-            "position": [ 0.0, -0.2, 0.0 ],
-            "min_rider_count": 0,
-            "max_rider_count": 1,
-
-            "rotate_rider_by": -90,
-            "lock_rider_rotation": 90
-          },
-          {
-            "position": [ 0.2, -0.2, 0.0 ],
-            "min_rider_count": 2,
-            "max_rider_count": 2,
-
-            "rotate_rider_by": -90,
-            "lock_rider_rotation": 90
-          },
-          {
-            "position": [ -0.6, -0.2, 0.0 ],
-            "min_rider_count": 2,
-            "max_rider_count": 2,
-
-            "lock_rider_rotation": 90
-          }
-        ]
-      },
-      "minecraft:is_stackable": {
-      },
-      "minecraft:physics": {
-      },
-      "minecraft:pushable": {
-        "is_pushable": true,
-        "is_pushable_by_piston": true
-      }
-    }
-  }
+		"components": {
+			"minecraft:type_family": {
+				"family": [ "inanimate" ]
+			},
+			"minecraft:collision_box": {
+				"width": 1.2,
+				"height": 0.455
+			},
+			"minecraft:rideable": {
+				"interact_text": "action.interact.ride.elevator",
+				"seats": [
+					{
+						"position": [ 0.0, 0.3, -0.4 ],
+						"lock_rider_rotation": 135
+					}
+				]
+			},
+			"minecraft:pushable": {
+				"is_pushable": true,
+				"is_pushable_by_piston": true
+			}
+		}
+	}
 }
