@@ -13,5 +13,3 @@ if exist %resources% (
 	rmdir /q /s %resources%
 )
 xcopy /e resources %resources%
-
-pause
