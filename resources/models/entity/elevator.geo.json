@@ -5,7 +5,7 @@
 			"description": {
 				"identifier": "geometry.elevator",
 				"texture_width": 128,
-				"texture_height": 128,
+				"texture_height": 64,
 				"visible_bounds_width": 5,
 				"visible_bounds_height": 1,
 				"visible_bounds_offset": [0, 0.5, 0]
@@ -23,8 +23,7 @@
 						{"origin": [-13, 2, -11], "size": [2, 11, 2], "uv": [25, 28]},
 						{"origin": [11, 2, -11], "size": [2, 11, 2], "uv": [25, 28]},
 						{"origin": [13, 2, -11], "size": [2, 11, 26], "uv": [2, 4]},
-						{"origin": [-13, 2, 13], "size": [26, 11, 2], "uv": [0, 28]},
-						{"origin": [-13, 8, -8], "size": [0.25, 4, 3], "uv": [74, 40]}
+						{"origin": [-13, 2, 13], "size": [26, 11, 2], "uv": [0, 28]}
 					]
 				},
 				{
