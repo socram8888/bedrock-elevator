@@ -22,6 +22,7 @@
 *.xml text diff=html
 *.yml text
 Dockerfile text
+.jshintrc text
 
 # Images
 *.bmp binary

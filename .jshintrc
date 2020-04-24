@@ -1,18 +1,30 @@
 {
+	"curly": true,
 	"esversion": 6,
 	"eqeqeq": true,
 	"futurehostile": true,
+	"latedef": "nofunc",
+	"leanswitch": true,
+	"noarg": true,
+	"nocomma": true,
+	"nonbsp": true,
+	"predef": [],
+	"regexpu": true,
+	"strict": true,
 	"undef": true,
+	"unused": true,
+	"trailingcomma": true,
+
 	"overrides": {
 		"behavior/scripts/client/*.js": {
-			"globals": {
-				"client": false
-			}
+			"predef": [
+				"client"
+			]
 		},
 		"behavior/scripts/server/*.js": {
-			"globals": {
-				"server": false
-			}
+			"predef": [
+				"server"
+			]
 		}
 	}
 }
