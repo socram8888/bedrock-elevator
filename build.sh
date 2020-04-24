@@ -3,8 +3,12 @@
 cd "$(dirname "$0")"
 
 echo "### GENERATING RESOURCES"
-./generate_resources.sh
+./generate-resources.sh
 
 echo
 echo "### TESTING JSONS"
-./test_jsons.sh
+./test-jsons.sh
+
+echo
+echo "### COMPRESSING PNGS"
+
