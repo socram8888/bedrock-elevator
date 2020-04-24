@@ -6,14 +6,13 @@
 	"latedef": "nofunc",
 	"leanswitch": true,
 	"noarg": true,
-	"nocomma": true,
 	"nonbsp": true,
+	"nocomma": true,
 	"predef": [],
 	"regexpu": true,
-	"strict": true,
+	"strict": "global",
 	"undef": true,
 	"unused": true,
-	"trailingcomma": true,
 
 	"overrides": {
 		"behavior/scripts/client/*.js": {
