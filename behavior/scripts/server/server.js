@@ -58,16 +58,15 @@ system.onBlockPlaced = function(eventData) {
 		}
 
 		const angleToGuide = Math.atan2(blockPosition.x - nearbyGuide.block_position.x, blockPosition.z - nearbyGuide.block_position.z);
-		this.log(angleToGuide);
 
-		const elevatorPos = this.getComponent(elevator, "minecraft:position");
+		const elevatorPos = this.createComponent(elevator, "minecraft:position");
 		elevatorPos.data.x = blockPosition.x + Math.sin(angleToGuide) * 0.53 + 0.5;
-		elevatorPos.data.y = blockPosition.y;
+		elevatorPos.data.y = blockPosition.y + 0.1;
 		elevatorPos.data.z = blockPosition.z + Math.cos(angleToGuide) * 0.53 + 0.5;
 		this.applyComponentChanges(elevator, elevatorPos);
 
-		const elevatorRot = this.getComponent(elevator, "minecraft:rotation");
-		elevatorRot.data.y = 0.5;
+		const elevatorRot = this.createComponent(elevator, "minecraft:rotation");
+		elevatorRot.data.y = Math.round(-180 * angleToGuide / Math.PI);
 		this.applyComponentChanges(elevator, elevatorRot);
 	});
 };
