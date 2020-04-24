@@ -1,13 +1,17 @@
 'use strict';
 
+const LOG_ENABLED = true;
+
 const system = server.registerSystem(0, 0);
 
 system.initialize = function() {
-    let loggerData = system.createEventData("minecraft:script_logger_config");
-    loggerData.data.log_information = true;
-    loggerData.data.log_warnings = true;
-    loggerData.data.log_errors = true;
-    system.broadcastEvent("minecraft:script_logger_config", loggerData);
+	if (LOG_ENABLED) {
+		let loggerData = system.createEventData("minecraft:script_logger_config");
+		loggerData.data.log_information = true;
+		loggerData.data.log_warnings = true;
+		loggerData.data.log_errors = true;
+		system.broadcastEvent("minecraft:script_logger_config", loggerData);
+	}
 
 	system.listenForEvent("minecraft:player_placed_block", (e) => this.onBlockPlaced(e));
 };
@@ -25,6 +29,10 @@ system.emit = function(identifier, properties) {
 };
 
 system.log = function(...items) {
+	if (!LOG_ENABLED) {
+		return;
+	}
+
 	const toString = item => {
 		switch(Object.prototype.toString.call(item)) {
 			case '[object Undefined]':
