@@ -3,3 +3,4 @@ pack.description=Un addon de ascensores
 tile.orca:elevator_guide.name=Guía de ascensor
 tile.orca:elevator_guide_floor.name=Guía de ascensor (piso)
 tile.orca:elevator_guide_basement.name=Guía de ascensor (bajo)
+tile.orca:elevator_kit.name=Kit de ascensor

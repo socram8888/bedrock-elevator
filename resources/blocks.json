@@ -20,5 +20,15 @@
 			"down": "elevator_guide_top",
 			"side": "elevator_guide_floor_front"
 		}
+	},
+	"orca:elevator_kit": {
+		"textures": {
+			"up": "elevator_kit_top",
+			"down": "elevator_kit_top",
+			"north": "elevator_kit_side",
+			"south": "elevator_kit_side",
+			"west": "elevator_kit_arrows",
+			"east": "elevator_kit_arrows"
+		}
 	}
 }
