@@ -1,0 +1,18 @@
+{
+	"esversion": 6,
+	"eqeqeq": true,
+	"futurehostile": true,
+	"undef": true,
+	"overrides": {
+		"behavior/scripts/client/*.js": {
+			"globals": {
+				"client": false
+			}
+		},
+		"behavior/scripts/server/*.js": {
+			"globals": {
+				"server": false
+			}
+		}
+	}
+}

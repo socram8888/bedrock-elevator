@@ -7,8 +7,8 @@ echo "### GENERATING RESOURCES"
 
 echo
 echo "### TESTING JSONS"
-./test-jsons.sh
+./test-syntax.sh
 
 echo
 echo "### COMPRESSING PNGS"
-
+./optimize-png.sh
