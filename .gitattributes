@@ -13,6 +13,7 @@
 *.java text diff=java
 *.js text
 *.json text
+*.lang text
 *.properties text
 *.ps1 text
 *.py text diff=python
