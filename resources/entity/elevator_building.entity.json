@@ -17,7 +17,12 @@
 			],
 			"animations": {
 				"move": "animation.elevator_building.move"
-			}
+			},
+			"animation_controllers": [
+				{
+					"default": "controller.animation.default"
+				}
+			]
 		}
 	}
 }
