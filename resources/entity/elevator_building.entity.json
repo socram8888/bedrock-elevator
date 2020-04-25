@@ -20,9 +20,12 @@
 			},
 			"animation_controllers": [
 				{
-					"default": "controller.animation.default"
+					"default": "controller.animation.elevator_building.default"
 				}
-			]
+			],
+			"particle_effects": {
+				"building_dust": "orca:building_dust"
+			}
 		}
 	}
 }
