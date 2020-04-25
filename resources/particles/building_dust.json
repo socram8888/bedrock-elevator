@@ -5,7 +5,7 @@
       "identifier": "orca:building_dust",
       "basic_render_parameters": {
         "material": "particles_alpha",
-        "texture": "textures/particle/bulding_dust"
+        "texture": "textures/particle/building_dust"
       }
     },
     "components": {
@@ -45,7 +45,7 @@
             "frames_per_second": 8,
             "max_frame": 8,
             "stretch_to_lifetime": true,
-            "loop": false
+            "loop": true
           }
         }
       },
