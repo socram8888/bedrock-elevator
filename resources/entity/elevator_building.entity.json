@@ -16,7 +16,7 @@
 				"controller.render.default"
 			],
 			"animations": {
-				"default": "animation.elevator_building.default"
+				"move": "animation.elevator_building.move"
 			}
 		}
 	}

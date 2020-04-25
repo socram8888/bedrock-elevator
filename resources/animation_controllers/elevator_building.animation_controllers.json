@@ -1,11 +1,11 @@
 {
 	"format_version" : "1.10.0",
 	"animation_controllers" : {
-		"controller.animation.elevator_building.default" : {
+		"controller.animation.elevator_building.general" : {
 			"initial_state" : "default",
 			"states" : {
 				"default" : {
-					"animations" : [ "default" ]
+					"animations" : [ "move" ]
 				}
 			}
 		}
