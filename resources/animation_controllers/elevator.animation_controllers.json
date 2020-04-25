@@ -1,0 +1,22 @@
+{
+	"format_version" : "1.10.0",
+	"animation_controllers" : {
+		"controller.animation.elevator" : {
+			"initial_state" : "open",
+			"states" : {
+				"open" : {
+					"animations" : [ "open" ]
+				},
+				"close" : {
+					"animations" : [ "close" ]
+				},
+				"up" : {
+					"animations" : [ "up" ]
+				},
+				"down" : {
+					"animations" : [ "down" ]
+				}
+			}
+		}
+	}
+}
