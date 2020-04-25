@@ -52,7 +52,7 @@ system.onBlockPlaced = function(eventData) {
 			return;
 		}
 
-		const elevator = this.createEntity("entity", "orca:elevator");
+		const elevator = this.createEntity("entity", "orca:elevator_building");
 		if (!elevator) {
 			return;
 		}
