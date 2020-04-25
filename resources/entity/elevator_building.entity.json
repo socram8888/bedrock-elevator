@@ -1,0 +1,23 @@
+{
+	"format_version": "1.8.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "orca:elevator_building",
+			"materials": {
+				"default": "minecart"
+			},
+			"textures": {
+				"default": "textures/entity/elevator_building"
+			},
+			"geometry": {
+				"default": "geometry.elevator_building"
+			},
+			"render_controllers": [
+				"controller.render.default"
+			],
+			"animations": {
+				"default": "animation.elevator_building.default"
+			}
+		}
+	}
+}
