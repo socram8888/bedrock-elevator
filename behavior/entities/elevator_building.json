@@ -42,20 +42,20 @@
 			"minecraft:knockback_resistance": {
 				"value": 10000
 			},
-			"minecraft:ambient_sound_interval" :{
-                    "range" : 0.5,
-                    "value" : 1.0
-                }
+			"minecraft:ambient_sound_interval": {
+				"range": 0.5,
+				"value": 1.0
+			}
 		},
 
 		"events": {
 			"transform_into_elevator": {
-            	"add" : {
-                	"component_groups": [
-                    	"transform_into_elevator"
-                    ]
-                }
-            }
+				"add" : {
+					"component_groups": [
+						"transform_into_elevator"
+					]
+				}
+			}
 		}
 	}
 }
