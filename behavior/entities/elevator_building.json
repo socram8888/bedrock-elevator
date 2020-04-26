@@ -14,7 +14,6 @@
 				}
 			}
 		},
-
 		"components": {
 			"minecraft:type_family": {
 				"family": [ "inanimate" ]
@@ -51,6 +50,9 @@
                         "transform_into_elevator"
                     ]
                 }
+            },
+            "minecraft:entity_spawned": {
+            	"play_sounds": "building.bricomania"
             }
 		}
 	}

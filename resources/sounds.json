@@ -1,17 +1,16 @@
 {
-  "individual_event_sounds" : {
-     "events" :{
-        "transform_into_elevator": { "sound": "building.drill", "volume": 0.5, "pitch": 1.0 },
-    },
-  }, 
-  "entity_sounds": {
-      "elevator_building": {
-        "volume": 1.0,
-        "pitch": [ 0.8, 1.2 ],
-        "events": {
-          "transform_into_elevator": "building.drill"
-          }
-        }
-      }
+  "building.drill": {
+    "sounds": [
+      "building/drill_bricomania"
+    ]
+  },
+  "entities": {
+  	"building.bricomania": {
+  		"volume": 1.0,
+  		"pitch": [ 0.8, 1.2 ],
+  		"events": {
+  			"ambient": "building.drill"
+  		}
+  	}
   }
 }
