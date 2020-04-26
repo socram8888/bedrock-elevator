@@ -1,19 +1,10 @@
 {
 	"format_version" : "1.14.0",
 	"sound_definitions" : {
-		"building.drill": {
+		"orca:building.drill": {
 			"sounds": [
 				"sounds/building/drill_bricomania"
 			]
-		},
-		"building.bricomania": {
-      		"category": "neutral",
-      		"sounds": [
-      			{
-      				"name": "sounds/building/drill_bricomania",
-      				"load_on_low_memory": true
-      			}
-      		]
-      	}
+		}
 	}
 }
