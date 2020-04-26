@@ -1,9 +1,9 @@
 {
 	"entity_sounds": {
 		"entities": {
-			"elevator_building": {
+			"orca:elevator_building": {
 				"volume": 0.8,
-				"pitch": 1.0,
+				"pitch": [ 0.7, 1.2 ],
 				"events": {
 					"ambient": "orca:building.drill",
 					"hurt": ""
