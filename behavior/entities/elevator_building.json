@@ -41,7 +41,11 @@
 			"minecraft:fire_immune": true,
 			"minecraft:knockback_resistance": {
 				"value": 10000
-			}
+			},
+			"minecraft:ambient_sound_interval" :{
+                    "range" : 0.5,
+                    "value" : 1.0
+                }
 		},
 
 		"events": {

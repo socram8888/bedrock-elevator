@@ -1,16 +1,18 @@
 {
-  "building.drill": {
-    "sounds": [
-      "building/drill_bricomania"
-    ]
-  },
+  "entity_sounds": {
   "entities": {
-  	"building.bricomania": {
-  		"volume": 1.0,
-  		"pitch": [ 0.8, 1.2 ],
-  		"events": {
-  			"entity_spawned": "building.drill"
-  		}
-  	}
+    "elevator_building": {
+      "volume": 1.0,
+      "pitch": 1.0,
+      "events": {
+        "hurt": {
+            "sound": ""
+          },
+        "ambient": {
+          "sound": "orca:building.drill",
+          "volume": 0.85
+        }
+      }
+    }
   }
 }
