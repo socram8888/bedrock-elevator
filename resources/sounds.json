@@ -1,18 +1,14 @@
 {
-  "entity_sounds": {
-  "entities": {
-    "elevator_building": {
-      "volume": 1.0,
-      "pitch": 1.0,
-      "events": {
-        "hurt": {
-            "sound": ""
-          },
-        "ambient": {
-          "sound": "orca:building.drill",
-          "volume": 0.85
-        }
-      }
-    }
-  }
+	"entity_sounds": {
+		"entities": {
+			"elevator_building": {
+				"volume": 0.8,
+				"pitch": 1.0,
+				"events": {
+					"ambient": "orca:building.drill",
+					"hurt": ""
+				}
+			}
+		}
+	}
 }
