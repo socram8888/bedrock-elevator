@@ -45,6 +45,10 @@
 			"minecraft:ambient_sound_interval": {
 				"range": 0.5,
 				"value": 1.0
+			},
+			"minecraft:behavior.sneeze": {
+				"probability": 0.9,
+				"sound": "orca:building.drill"
 			}
 		},
 
