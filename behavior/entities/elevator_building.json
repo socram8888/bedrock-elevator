@@ -36,7 +36,7 @@
 				"time_down_event": {
 					"event": "transform_into_elevator",
 					"target": "self"
-				},
+				}
 			},
 			"minecraft:fire_immune": true,
 			"minecraft:knockback_resistance": {
