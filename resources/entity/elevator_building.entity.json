@@ -25,6 +25,9 @@
 			],
 			"particle_effects": {
 				"building_dust": "orca:building_dust"
+			},
+			"sound_effect": {
+				"building_drill": "building.drill"
 			}
 		}
 	}

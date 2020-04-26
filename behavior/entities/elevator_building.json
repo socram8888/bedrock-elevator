@@ -44,15 +44,12 @@
 		},
 
 		"events": {
-            "transform_into_elevator": {
-                "add" : {
-                    "component_groups": [
-                        "transform_into_elevator"
+			"transform_into_elevator": {
+            	"add" : {
+                	"component_groups": [
+                    	"transform_into_elevator"
                     ]
                 }
-            },
-            "minecraft:entity_spawned": {
-            	"play_sounds": "building.bricomania"
             }
 		}
 	}

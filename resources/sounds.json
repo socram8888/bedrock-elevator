@@ -9,7 +9,7 @@
   		"volume": 1.0,
   		"pitch": [ 0.8, 1.2 ],
   		"events": {
-  			"ambient": "building.drill"
+  			"entity_spawned": "building.drill"
   		}
   	}
   }
