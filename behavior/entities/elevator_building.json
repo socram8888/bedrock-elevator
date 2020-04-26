@@ -14,6 +14,7 @@
 				}
 			}
 		},
+
 		"components": {
 			"minecraft:type_family": {
 				"family": [ "inanimate" ]
