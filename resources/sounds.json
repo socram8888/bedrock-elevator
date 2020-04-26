@@ -5,7 +5,7 @@
 				"volume": 0.8,
 				"pitch": [ 0.7, 1.2 ],
 				"events": {
-					"ambient": "orca:building.drill",
+					"ambient": "orca:action.building",
 					"hurt": ""
 				}
 			}

@@ -1,7 +1,7 @@
 {
 	"format_version" : "1.14.0",
 	"sound_definitions" : {
-		"orca:building.drill": {
+		"orca:action.building": {
 			"sounds": [
 				"sounds/building/drill_bricomania"
 			]

@@ -42,7 +42,7 @@
 			"minecraft:knockback_resistance": {
 				"value": 10000
 			},
-			"minecraft:ambient_sound_interval": {
+			"minecraft:behavior.sneeze": {
 				"range": 0.5,
 				"value": 1.0
 			}
