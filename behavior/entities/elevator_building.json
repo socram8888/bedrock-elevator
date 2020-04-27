@@ -7,20 +7,20 @@
 			"is_summonable": true
 		},
 
-		"component_groups": {
-			"transform_into_elevator": {
-				"minecraft:transformation": {
-					"into": "orca:elevator"
-				}
-			}
-		},
-
 		"components": {
 			"minecraft:type_family": {
 				"family": [ "inanimate" ]
 			},
-			"minecraft:health": {
-				"value": 10000
+			"minecraft:transformation": {
+				"into": "orca:elevator",
+				"delay": {
+					"value": 3
+				}
+			},
+			"minecraft:damage_sensor": {
+				"triggers": {
+					"deals_damage": false
+				}
 			},
 			"minecraft:collision_box": {
 				"width": 0.98,
@@ -30,35 +30,14 @@
 				"is_pushable": false,
 				"is_pushable_by_piston": false
 			},
-			"minecraft:timer": {
-				"looping": false,
-				"time": 3,
-				"time_down_event": {
-					"event": "transform_into_elevator",
-					"target": "self"
-				}
-			},
 			"minecraft:fire_immune": true,
 			"minecraft:knockback_resistance": {
 				"value": 10000
 			},
-			"minecraft:behavior.sneeze": {
-				"range": 0.5,
-				"value": 1.0
-			},
-			"minecraft:behavior.sneeze": {
-				"probability": 0.9,
-				"sound": "orca:building.drill"
-			}
-		},
-
-		"events": {
-			"transform_into_elevator": {
-				"add" : {
-					"component_groups": [
-						"transform_into_elevator"
-					]
-				}
+			"minecraft:ambient_sound_interval": {
+				"event_name": "ambient",
+				"range": 0.1,
+				"value": 1
 			}
 		}
 	}
