@@ -3,7 +3,7 @@
 		"entities": {
 			"orca:elevator_building": {
 				"volume": 0.8,
-				"pitch": [ 0.7, 1.2 ],
+				"pitch": 1.0,
 				"events": {
 					"ambient": "orca:action.building",
 					"hurt": ""

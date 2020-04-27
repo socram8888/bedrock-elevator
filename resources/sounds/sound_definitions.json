@@ -3,7 +3,7 @@
 	"sound_definitions" : {
 		"orca:action.building": {
 			"sounds": [
-				"sounds/building/drill_bricomania"
+				"sounds/action/building"
 			]
 		}
 	}
